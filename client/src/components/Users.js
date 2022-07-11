@@ -107,7 +107,7 @@ function Users() {
       <div className=" overflow-y-auto h-fit max-h-screen">
         <div className="absolute w-full">
           <div className=" bg-sky-200 p-6 flex flex-row space-x-36 w-full">
-            <label htmlFor="search-form" className="w-4/5">
+            <label htmlFor="search-form" className="md:w-1/2 w-ful">
               <input
                 className="h-10 w-full"
                 type="search"
