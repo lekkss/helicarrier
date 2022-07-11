@@ -56,18 +56,18 @@ function Users() {
   const DATA = Object.keys(groupByDate).map((dateSingle) => {
     return (
       <div key={dateSingle}>
-        <div className="p-1 bg-green-500 md:m-2 md:p-5 flex justify-center flex-col font-mono">
-          <h4 className="bg-white w-fit p-2">DATE:{dateSingle}</h4>
+        <div className="p-1  md:m-2 md:p-5 flex justify-center flex-col font-mono">
+          <h4 className="bg-stone-300 w-fit p-2 m-2">{dateSingle}</h4>
           <div>
             {groupByDate[dateSingle].map((user) => {
               const { id, name, transactionType, status } = user;
               return (
                 <div key={id}>
-                  <div className="flex flex-row justify-center items-center space-x-6 p-2">
-                    <div className=" bg-gray-500 h-24 w-24 p-5 flex justify-center  ">
+                  <div className="flex flex-row justify-center items-center space-x-2 md:space-x-6 p-2">
+                    <div className=" bg-lime-100 h-24 w-24 p-5 flex justify-center  ">
                       <div className=" self-center">avi</div>
                     </div>
-                    <div className="bg-amber-600 flex-1 p-2 flex flex-row justify-between items-center h-24">
+                    <div className="bg-teal-100 flex-1 p-2 flex flex-row justify-between items-center h-24">
                       <div>
                         <h1>{name}</h1>
                         <h2
@@ -106,7 +106,7 @@ function Users() {
     <div className="font-mono">
       <div className=" overflow-y-auto h-fit max-h-screen">
         <div className="absolute w-full">
-          <div className=" bg-gray-500 p-6 flex flex-row space-x-36 w-full">
+          <div className=" bg-sky-200 p-6 flex flex-row space-x-36 w-full">
             <label htmlFor="search-form" className="w-4/5">
               <input
                 className="h-10 w-full"
