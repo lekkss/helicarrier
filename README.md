@@ -6,7 +6,7 @@ This uses the `concurrently` package to start both the GraphQL server and the Ap
 
 ## Implementation
 <p>
-    <img src="screenshot/1.PNG" width="300px" height="auto" hspace="10"/>
+    <img src="screenshot/1.PNG" width="400px" height="auto" hspace="10"/>
     <img src="screenshot/2.PNG" width="300px" height="auto" hspace="10"/>
 </p>
 
