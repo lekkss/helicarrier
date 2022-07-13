@@ -2,7 +2,7 @@
 In the project root directory, you can run:
 
 ### `npm run dev`
-This uses the `concurrently` package to start both the GraphQL server and the App in develipment stage
+This uses the `concurrently` package to start both the GraphQL server and the App in development stage
 
 ## Implementation
 <p>
